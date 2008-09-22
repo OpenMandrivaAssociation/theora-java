@@ -1,7 +1,7 @@
 Name:			theora-java
 Summary:		A Java wrapper around theora, using JNA
 Version:		20071009
-Release:		%mkrel 0.0.1
+Release:		%mkrel 0.0.2
 License:		LGPL
 Group:			Development/Java
 URL:			http://fmj.sourceforge.net/
