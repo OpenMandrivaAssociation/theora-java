@@ -18,7 +18,7 @@ BuildRequires:	xml-commons-apis
 Requires:		java >= 1.5
 Requires:		jorbis
 Requires:		libogg
-Requires:		libtheora
+Requires:		libtheora0
 Requires:		libvorbis
 
 %description
