@@ -1,25 +1,25 @@
-Name:			theora-java
-Summary:		A Java wrapper around theora, using JNA
-Version:		20071009
-Release:		%mkrel 0.0.2
-License:		LGPL
-Group:			Development/Java
-URL:			http://fmj.sourceforge.net/
-#Source0:		%{name}-%{version}-1153.tar.gz
-Source0:		%{name}.tar.bz2
-Patch:			%{name}-build.xml.diff
-BuildRoot:		%{_tmppath}/%{name}-%{version}-build
-BuildArch:		noarch
+Summary:	A Java wrapper around theora, using JNA
+Name:		theora-java
+Version:	20071009
+Release:	%mkrel 0.0.3
+License:	LGPLv3
+Group:		Development/Java
+URL:		http://fmj.sourceforge.net/
+#Source0:	%{name}-%{version}-1153.tar.gz
+Source0:	%{name}.tar.bz2
+Patch:		%{name}-build.xml.diff
 BuildRequires:	ant
 BuildRequires:	java-rpmbuild >= 1.5
 BuildRequires:	jorbis
 BuildRequires:	update-alternatives
 BuildRequires:	xml-commons-apis
-Requires:		java >= 1.5
-Requires:		jorbis
-Requires:		libogg
-Requires:		libtheora0
-Requires:		libvorbis
+Requires:	java >= 1.5
+Requires:	jorbis
+Requires:	libogg
+Requires:	libtheora
+Requires:	libvorbis
+BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-build
 
 %description
 theora-java is a Java wrapper around theora, using JNA.
@@ -65,7 +65,7 @@ ln -s %{name}-%{version} %{buildroot}%{_javadocdir}/%{name}
 
 %files
 %defattr(-,root,root)
-%doc *.txt LICENSE README
+%doc *.txt README
 %dir %{_javadir}/fmj
 %{_javadir}/fmj/*.jar
 
