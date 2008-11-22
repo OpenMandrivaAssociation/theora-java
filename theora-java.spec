@@ -1,7 +1,7 @@
 Summary:	A Java wrapper around theora, using JNA
 Name:		theora-java
 Version:	20071009
-Release:	%mkrel 0.0.4
+Release:	%mkrel 0.0.5
 License:	LGPLv3
 Group:		Development/Java
 URL:		http://fmj.sourceforge.net/
@@ -22,7 +22,6 @@ Requires:	libtheora
 Requires:	%{_lib}theora0
 %endif
 Requires:	libvorbis
-BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-build
 
 %description
