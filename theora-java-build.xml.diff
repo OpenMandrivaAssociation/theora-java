@@ -1,0 +1,28 @@
+--- build.xml.orig	2007-09-08 10:36:18.000000000 +0200
++++ build.xml	2007-09-08 10:37:28.000000000 +0200
+@@ -42,8 +42,7 @@
+ 			<src path="src.jheora.example"/>
+ 			<classpath>
+ 				<pathelement path="lib/jna.jar" />
+-				<pathelement path="lib/jogg-0.0.7.jar" />
+-				<pathelement path="lib/jorbis-0.0.15.jar" />
++				<pathelement path="/usr/share/java/jorbis.jar" />
+ 			</classpath>			
+ 		</javac>
+ 					
+@@ -86,8 +85,6 @@
+ 		
+ 		<mkdir dir="${dist}/lib" />
+ 		<copy todir="${dist}/lib" file="lib/jna.jar" />
+-		<copy todir="${dist}/lib" file="lib/jogg-0.0.7.jar" />
+-		<copy todir="${dist}/lib" file="lib/jorbis-0.0.15.jar" />
+ 		<copy todir="${dist}/lib" file="build/jars/jheora-patch.jar"/>
+ 		
+ 		<mkdir dir="${dist}/doc"/>
+@@ -157,4 +154,4 @@
+ 	</target>
+ 
+ 
+-</project>
+\ Kein Zeilenumbruch am Dateiende.
++</project>
