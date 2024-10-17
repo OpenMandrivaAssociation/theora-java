@@ -6,7 +6,7 @@ Version:	20071009
 Release:	0.0.7
 License:	LGPLv3
 Group:		Development/Java
-URL:		http://fmj.sourceforge.net/
+URL:		https://fmj.sourceforge.net/
 #Source0:	%{name}-%{version}-1153.tar.gz
 Source0:	%{name}.tar.bz2
 Patch:		%{name}-build.xml.diff
